@@ -165,4 +165,51 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    padding: 24px 24px;
+    border-radius: 8px;
+    gap: 16px;
+    border: 1px solid #e4eaef;
 }
+.card-heading{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+}
+.cards-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.solution-section{
+    display: flex;
+    justify-content: center;
+    padding: 120px 120px;
+}
+.right-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.CheckCircle{
+    display: flex;
+    gap:8px;
+    margin-bottom: 8px;
+}
+.solution-content-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.solution-head{
+    color: #30B868;
+    text-transform: uppercase;
+}
+.solution-title{
+font-style: Bold;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+}
+

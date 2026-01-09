@@ -199,7 +199,7 @@ header{
 .solution-content-wrapper{
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 60px;
     align-items: center;
 }
 .solution-head{
@@ -211,5 +211,19 @@ font-style: Bold;
 font-size: 48px;
 font-weight: 700;
 line-height: 58px;
+}
+.plase-section{
+    display: flex;
+    justify-content: center;
+}
+.plase-content-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 80px 40px;
+    background-color: rgba(247, 246, 242, 1);;
 }
 
